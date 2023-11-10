@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting With CSS</title>
+     <!-- internal CSS -->
+    <style>
+        .internal {
+            background-color: rgb(28, 0, 128);
+            color: white;
+        }
+
+        .targets {
+            background-color: blue;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- There are 3 Ways to add Css (1)-inline Css (2)-internal CSS (3)-external CSS -->
+    <div style="background-color: aqua;">This div targets inline CSS</div><br>
+    <div class="internal">This Div targets internal CSS</div><br>
+    <div class="external">This Div targets External CSS</div><br>
+    <div class="targets" style="background-color: palevioletred;">This Div shows that what will happens when we target the same elements with inline, internal, and external CSS.</div>
+    <!-- When We try add inline, internal and external css together on aparticular element then it prefers inline CSS  -->
+</body>
+</html>

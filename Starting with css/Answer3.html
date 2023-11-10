@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 3</title>
+    <style>
+        .firstname{
+            background-color: aquamarine;
+        }
+        .lastname{
+            background-color:rgb(126, 132, 132);
+            color: white;
+        }
+        .age{
+            background-color: rgb(243, 163, 176)255, 215, 192);
+        }
+        .email{
+            background-color: rgb(183, 130, 235);
+        }
+        .password{
+            background-color: rgb(146, 240, 141);
+        }
+        .confirm_password{
+            background-color: rgb(146, 240, 141);
+        }
+
+        button{
+            opacity: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="First_name">First Name :</label>
+            <input type="text" id="First_name" name="First_name" class="firstname" placeholder="Amit" minlength="3" required> <br> <br>
+
+            <label for="Last_name">Last Name :</label>
+            <input type="text" id="Last_name" name="Last_name" class="lastname" placeholder="kumar" minlength="3"><br> <br>
+
+            <label for="Gender">Gender :</label>
+            <input type="radio" id="male" name="Gender">
+            <label for="male"> Male</label>
+            <input type="radio" id="female" name="Gender">
+            <label for="female"> Female</label>
+            <input type="radio" id="others" name="Gender"> 
+            <label for="others"> Others</label><br><br>
+
+            <label for="age">Age :</label>
+            <input type="number" id="age" name="age" class="age" placeholder="20" min="0" required> <br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" class="email" placeholder="Amit@gmail.com" required><br><br>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" class="password" placeholder="********" minlength="8" required><br><br>
+
+            <label for="confirm_pass">Confirm Password :</label>
+            <input type="password" id="confirm_pass" placeholder="********" class="confirm_password" name="confirm_pass"><br><br>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I Agree Terms and Condition</label> <br><br>
+
+            <button type="submit">Register</button>
+            
+        </form>
+    </div>
+</body>
+</html>
